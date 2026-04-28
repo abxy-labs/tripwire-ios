@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "Tripwire",
             url: "https://github.com/abxy-labs/tripwire-ios/releases/download/1.0.0/Tripwire-1.0.0.xcframework.zip",
-            checksum: "8d984e7b76935763c1905ca57e01d24faf90b9053e56468b74485c67ca3d38d1"
+            checksum: "db5d36752a5348584fdcaf4bd759738559153dee627a4670dbe9df92f7bd511d"
         ),
     ]
 )
