@@ -14,18 +14,6 @@ artifacts are retained privately.
 | --- | --- | --- |
 | `https://github.com/abxy-labs/tripwire-ios` | Yes | Protected binary SwiftPM package for the Tripwire iOS SDK. |
 
-## What's New in 1.2.0
-
-- Expanded native signal coverage for device, app, runtime, network, and
-  integrity posture.
-- Improved native behavioral collection for form, action, lifecycle, motion,
-  scroll, WebView, and touch evidence while keeping raw user-entered values out
-  of the payload.
-- Better parity with the Android and web SDKs so native and hybrid sessions can
-  be interpreted consistently by Tripwire's server-side scoring pipeline.
-- Additional integration diagnostics and companion-app polish for local and
-  production validation.
-
 ## Requirements
 
 - iOS 14+
@@ -38,13 +26,13 @@ artifacts are retained privately.
 Add the SDK with Swift Package Manager:
 
 ```swift
-.package(url: "https://github.com/abxy-labs/tripwire-ios", from: "1.2.0")
+.package(url: "https://github.com/abxy-labs/tripwire-ios", from: "1.2.1")
 ```
 
 Then add the `Tripwire` product to your app target.
 
 The release asset for this version is
-`Tripwire-1.2.0.xcframework.zip`.
+`Tripwire-1.2.1.xcframework.zip`.
 
 ## Quick Start
 
@@ -301,7 +289,7 @@ asset. Private symbols and debug artifacts are retained by Tripwire.
 Tripwire follows semantic versioning for public mobile SDK packages.
 
 ```swift
-.package(url: "https://github.com/abxy-labs/tripwire-ios", from: "1.2.0")
+.package(url: "https://github.com/abxy-labs/tripwire-ios", from: "1.2.1")
 ```
 
 Pin exact versions in production builds and upgrade intentionally.
