@@ -14,18 +14,6 @@ artifacts are retained privately.
 | --- | --- | --- |
 | `https://github.com/abxy-labs/tripwire-ios` | Yes | Protected binary SwiftPM package for the Tripwire iOS SDK. |
 
-## What's New in 1.2.1
-
-- Expanded native signal coverage for device, app, runtime, network, and
-  integrity posture.
-- Improved native behavioral collection for form, action, lifecycle, motion,
-  scroll, WebView, and touch evidence while keeping raw user-entered values out
-  of the payload.
-- Better parity with the Android and web SDKs so native and hybrid sessions can
-  be interpreted consistently by Tripwire's server-side scoring pipeline.
-- Additional integration diagnostics and companion-app polish for local and
-  production validation.
-
 ## Requirements
 
 - iOS 14+
