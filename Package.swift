@@ -2,21 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "Tripwire",
+    name: "Foil",
     platforms: [
         .iOS(.v14),
     ],
     products: [
         .library(
-            name: "Tripwire",
-            targets: ["Tripwire"]
+            name: "Foil",
+            targets: ["Foil"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "Tripwire",
-            url: "https://github.com/abxy-labs/tripwire-ios/releases/download/1.2.1/Tripwire-1.2.1.xcframework.zip",
-            checksum: "b023e2e85b21235118f801915946c44c87596da4b634083a3e659f86608238ee"
+            name: "Foil",
+            url: "https://github.com/abxy-labs/foil-ios/releases/download/1.2.2/Foil-1.2.2.xcframework.zip",
+            checksum: "84d3071c46ff0e3653e874c9c2a22bf4b9b56bc0ea0768cf6f4e18b388f621d1"
         ),
     ]
 )
